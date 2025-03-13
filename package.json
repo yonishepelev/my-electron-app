@@ -11,7 +11,7 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Test app Electron",
   "devDependencies": {
     "@electron-forge/cli": "^7.7.0",
     "@electron-forge/maker-deb": "^7.7.0",
