@@ -39,4 +39,4 @@ jobs:
             out/make/rpm/x64/*.rpm
           draft: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
