@@ -25,7 +25,7 @@ jobs:
         run: npm run make -- --platform=linux
 
       - name: Upload Linux Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: linux-artifacts
           path: out/make/deb/x64/*.deb
